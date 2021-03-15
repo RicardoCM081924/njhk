@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ninghai:war">
+    <output-path>$PROJECT_DIR$/../njhk/Intelligent_Rolling/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ninghai</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ninghai.war">
+      <element id="artifact" artifact-name="ninghai:war exploded" />
+    </root>
+  </artifact>
+</component>

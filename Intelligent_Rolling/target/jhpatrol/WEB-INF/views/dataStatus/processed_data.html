@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>处理数据</title>
+    <link rel="stylesheet" href="../../layuiadmin/layui/css/layui.css">
+    <style>
+        .ani-icon {
+            animation-name: ani;
+            animation-duration: 3s;
+            animation-timing-function: ease;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-play-state: running;
+            animation-fill-mode: none;
+            transform: rotateZ(30deg);
+        }
+        
+        @keyframes ani {
+            0% {
+                transform: rotateZ(-45deg);
+            }
+            25% {
+                transform: rotateZ(0deg);
+            }
+            50% {
+                transform: rotateZ(45deg);
+            }
+            75% {
+                transform: rotateZ(0deg);
+            }
+            100% {
+                transform: rotateZ(-45deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="layui-container">
+        <h1>这个页面由于数据库中暂时没有数据，因此没有放到系统里</h1>
+        <h2>这个页面与第一个页面基本相同，相关筛选函数我都已经实现，等到明白了具体要求和有了数据再将其页面放入</h2>
+        <h3>由于前面都已经实现了，最多两个小时就能够完成</h3>
+
+        <div style="text-align: center; display: block;">
+            <div class="ani-icon">
+                <i class="layui-icon layui-icon-404" style="font-size: 200px;"></i>
+            </div>
+            <div style="font-size: 40px; font-weight: bold;">抱歉</div>
+        </div>
+    </div>
+</body>
+
+</html>
