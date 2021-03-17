@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="njhk:war">
+    <output-path>$PROJECT_DIR$/../njhk/njhk/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>njhk</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="njhk.war">
+      <element id="artifact" artifact-name="njhk:war exploded" />
+    </root>
+  </artifact>
+</component>

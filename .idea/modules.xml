@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Intelligent_Rolling/ninghai.iml" filepath="$PROJECT_DIR$/Intelligent_Rolling/ninghai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../njhk/njhk/njhk.iml" filepath="$PROJECT_DIR$/../njhk/njhk/njhk.iml" />
     </modules>
   </component>
 </project>

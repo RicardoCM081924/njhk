@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ninghai" />
+        <module name="njhk" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ninghai" target="1.8" />
+      <module name="njhk" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
