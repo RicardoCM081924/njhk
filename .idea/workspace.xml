@@ -10,75 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88bb19a8-acd3-4e7a-a03c-e7fb9baabb3c" name="默认的" comment="默认的">
-      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/controller/VehicleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/dao/VehicleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/mapper/VehicleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/VehicleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/VehicleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/assets/img/crane.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentManagement/overview/data_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentManagement/overview/overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/.idea/dataSources/e0a7202d-336d-43cb-9c60-939c0be84894.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/.idea/dataSources/e0a7202d-336d-43cb-9c60-939c0be84894.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/.idea/dataSources/e0a7202d-336d-43cb-9c60-939c0be84894/storage_v2/_src_/schema/LIXUE.S35RBA.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/.idea/dataSources/e0a7202d-336d-43cb-9c60-939c0be84894/storage_v2/_src_/schema/LIXUE.S35RBA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentOverview/overview.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../njhk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/Intelligent_Rolling/ninghai.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/njhk.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/Intelligent_Rolling/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/Intelligent_Rolling.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/aop/LogAopAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/controller/DiagramController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/controller/HomePageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/controller/LogTableController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/controller/OriginalPhotoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/controller/PhotoExportController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/controller/WarningController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/dao/DiagramDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/dao/LogTableDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/dao/OriginalPhotoDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/dao/WarningDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/listener/UploadDataListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/mapper/DirgramMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/mapper/HomePageMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/mapper/LogTableMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/mapper/OriginalPhotoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/mapper/WarningMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/model/OriginalPhoto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/DiagramService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/DiagramServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/HomePageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/HomePageServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/LogTableService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/LogTableServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/OriginalPhotoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/OriginalPhotoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/PhotoExportService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/WarningService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/WarningServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/resources/properties/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/resources/properties/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/compactness/diagram.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/compactness/diagram.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/dao/VehicleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/dao/VehicleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/mapper/VehicleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/mapper/VehicleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentManagement/overview/data_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentOverview/data_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentManagement/overview/overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentManagement/overview/overview.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentOverview/overview.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/user/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/user/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/classes/com/hhu/mapper/DirgramMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/classes/com/hhu/mapper/HomePageMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/classes/com/hhu/mapper/LogTableMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/classes/com/hhu/mapper/OriginalPhotoMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/classes/com/hhu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/classes/com/hhu/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/classes/com/hhu/mapper/WarningMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/classes/properties/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/classes/properties/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/classes/com/hhu/mapper/LogTableMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/classes/com/hhu/mapper/LogTableMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/classes/com/hhu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/classes/com/hhu/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/classes/properties/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/classes/properties/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/views/compactness/diagram.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/views/compactness/diagram.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/views/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/views/user/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/views/user/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/views/user/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/test_img放到D盘根目录进行测试.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentManagement/overview/overview.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +98,9 @@
       <recent name="C:\Users\Ricardo\Documents\ninghai\Intelligent_Rolling\src\main\java\com\hhu\mapper" />
       <recent name="C:\Users\Ricardo\Documents\ninghai\Intelligent_Rolling\src\main\webapp\WEB-INF\views\compactness" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ricardo\Documents\njhk\njhk\src\main\webapp\WEB-INF\views\equipmentManagement" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.hhu.service" />
     </key>
@@ -167,17 +113,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat 服务器.Tomcat 8.5">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="运行单个请求">
       <method v="2" />
     </configuration>
@@ -355,7 +290,10 @@
       <workItem from="1618836158689" duration="2750000" />
       <workItem from="1618886649261" duration="1762000" />
       <workItem from="1618888455399" duration="1390000" />
-      <workItem from="1618895485593" duration="1122000" />
+      <workItem from="1618895485593" duration="1908000" />
+      <workItem from="1618904667218" duration="9454000" />
+      <workItem from="1618919640305" duration="1656000" />
+      <workItem from="1618922056943" duration="499000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1614850544084</created>
@@ -399,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615986757783</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="默认的">
+      <created>1618896734768</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618896734768</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

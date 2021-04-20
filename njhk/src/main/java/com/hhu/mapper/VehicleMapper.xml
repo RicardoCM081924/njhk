@@ -6,6 +6,10 @@
         SELECT distinct vehiclemodel
         FROM "TAB_VEHICLEIINFO"
     </select>
+    <select id="getVehicleFactory" resultType="java.lang.String">
+        SELECT distinct vehiclemodel
+        FROM "TAB_VEHICLEIINFO"
+    </select>
 
 
 </mapper>

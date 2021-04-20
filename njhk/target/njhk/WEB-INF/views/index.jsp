@@ -71,10 +71,11 @@
                 <div class="layui-logo" lay-href="homePage">
                     <span style="font-size: large;">河控电气</span>
                 </div>
-                <ul class="layui-nav layui-nav-tree" lay-shrink="all" id="LAY-system-side-menu" lay-filter="layadmin-system-side-menu">
+                <ul class="layui-nav layui-nav-tree" lay-shrink="all" id="LAY-system-side-menu"
+                    lay-filter="layadmin-system-side-menu">
 
-                    <li data-name="homepage" class="layui-nav-item layui-nav-itemed" >
-                        <a lay-href="homePage" lay-tips="首页" lay-direction="2" >
+                    <li data-name="homepage" class="layui-nav-item layui-nav-itemed">
+                        <a lay-href="homePage" lay-tips="首页" lay-direction="2">
                             <i class="layui-icon layui-icon-home"></i>
                             <cite>首页</cite>
                         </a>
@@ -89,7 +90,8 @@
                             <dd><a href="javascript:;" lay-href="views/dataStatus/original_data.html">设备定位</a></dd>
                         </dl>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;" lay-href="views/equipmentManagement/overview/overview.html">设备总览</a></dd>
+                            <dd><a href="javascript:;"
+                                   lay-href="views/equipmentOverview/overview.html">设备总览</a></dd>
                         </dl>
                         <dl class="layui-nav-child">
                             <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">在线分析</a></dd>
@@ -104,7 +106,8 @@
                             <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">设备查询</a></dd>
                         </dl>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">GPRS（通讯情况）</a></dd>
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">GPRS（通讯情况）</a>
+                            </dd>
                         </dl>
                         <dl class="layui-nav-child">
                             <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">原始数据</a></dd>
@@ -184,7 +187,8 @@
                     </li>
 
                     <li data-name="user" id="user_manage" class="layui-nav-item layui-nav-itemed">
-                        <a href="javascript:" lay-tips="用户权限" lay-direction="2" lay-href="views/user/userManagement.html">
+                        <a href="javascript:" lay-tips="用户权限" lay-direction="2"
+                           lay-href="views/user/userManagement.html">
                             <i class="layui-icon layui-icon-user"></i>
                             <cite>短信管理</cite>
                         </a>

@@ -91,7 +91,7 @@
                         </dl>
                         <dl class="layui-nav-child">
                             <dd><a href="javascript:;"
-                                   lay-href="views/equipmentManagement/overview/overview.html">设备总览</a></dd>
+                                   lay-href="views/equipmentOverview/overview.html">设备总览</a></dd>
                         </dl>
                         <dl class="layui-nav-child">
                             <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">在线分析</a></dd>

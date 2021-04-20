@@ -34,7 +34,7 @@ layui.use(['form', 'layer'],function () {
             type:"post",
             data:{
                 'username': username
-                ,'userpasswd': password
+                , 'userpasswd': password
             },
             success:function (data) {
                 console.log(data);

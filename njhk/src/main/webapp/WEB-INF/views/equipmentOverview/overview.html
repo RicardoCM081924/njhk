@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>设备总览</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="../../layuiadmin/layui/css/layui.css">
+    <link rel="stylesheet" href="../../layuiadmin/style/admin.css" media="all">
+    <link rel="stylesheet" type="text/css" href="../assets/component/formselects/formSelects-v4.css"/>
+    <link rel="stylesheet" href="data_page.css">
+</head>
+<body>
+<div class="container">
+    <div class="layui-card">
+        <div class="layui-card-header">
+            <span>筛选</span>
+        </div>
+        <div class="layui-card-body">
+            <div class="layui-form layui-card-body">
+                <div class="layui-form-item layui-inline">
+                    <label class="layui-form-label">设备类别</label>
+                    <div class="layui-input-inline">
+                        <select name="type" id="type" class="layui-input" lay-filter="type">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-form-item layui-inline">
+                    <label class="layui-form-label">设备型号</label>
+                    <div class="layui-input-inline">
+                        <select name="model" id="model" class="layui-input" lay-filter="model">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-form-item layui-inline">
+                    <label class="layui-form-label">设备编号</label>
+                    <div class="layui-input-inline">
+                        <input placeholder="请输入设备编号" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item layui-inline">
+                    <label class="layui-form-label">机架号</label>
+                    <div class="layui-input-inline">
+                        <input placeholder="请输入机架号" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item layui-inline">
+                    <label class="layui-form-label">设备厂家</label>
+                    <div class="layui-input-inline">
+                        <select name="factory" id="factory" class="layui-input" lay-filter="factory">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-form-item layui-inline">
+                    <label class="layui-form-label">SIM卡号</label>
+                    <div class="layui-input-inline">
+                        <select name="sim" id="sim" class="layui-input" lay-filter="sim">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-form-item layui-inline">
+                    <label class="layui-form-label">用户名称</label>
+                    <div class="layui-input-inline">
+                        <input placeholder="请输入用户名称" class="layui-input" autocomplete="off" id="username">
+                    </div>
+                </div>
+                <div class="layui-form-item layui-inline">
+                    <div class="layui-input-block">
+                        <button class="layui-btn" lay-submit lay-filter="submit">提交</button>
+                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="layui-card">
+        <div class="layui-card-header">
+            <span>表格</span>
+        </div>
+        <div class="layui-card-body">
+            <table class="layui-table">
+                <thead>
+                <tr>
+                    <th>图片名</th>
+                    <th>时间</th>
+                    <th>高程</th>
+                    <th>坝段</th>
+                    <th>仓面</th>
+                    <th>密度</th>
+                    <th>合格情况</th>
+                    <th>过程图</th>
+                </tr>
+                </thead>
+                <tbody id="message-body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="../../layuiadmin/layui/layui.js"></script>
+<script src="overview.js"></script>
+</body>
+</html>

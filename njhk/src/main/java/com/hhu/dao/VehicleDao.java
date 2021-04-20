@@ -11,4 +11,7 @@ public interface VehicleDao {
      */
     List<String> getVehicleModel();
 
+    List<String> getVehicleFactory();
+
+
 }

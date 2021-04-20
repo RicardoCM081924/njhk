@@ -38,13 +38,11 @@
 
 
     <select id="usersTableShow" resultType="com.hhu.model.User">
-        SELECT
-        id,
-        username,
-        note,
-        authority
-        FROM
-        "TAB_SYSUSER"
+        SELECT id,
+               username,
+               note,
+               authority
+        FROM "TAB_SYSUSER"
         ORDER BY id
     </select>
 
@@ -65,7 +63,7 @@
     </delete>
 
     <update id="update_user">
-        UPDATE  "TAB_SYSUSER"
+        UPDATE "TAB_SYSUSER"
         <set>
             username = #{username},
             password = #{password},
