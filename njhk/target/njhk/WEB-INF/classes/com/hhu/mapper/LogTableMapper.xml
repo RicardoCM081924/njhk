@@ -4,41 +4,31 @@
 <mapper namespace="com.hhu.dao.LogTableDao">
 
     <insert id="addLog">
-        INSERT INTO
-        Intelligent_Rolling.dbo.LogTable(
-        operator,
-        operateType,
-        operateDate,
-        operateResult
-        )
-        VALUES (
-        '${operator}',
-        '${operateType}',
-        '${operateDate}',
-        '${operateResult}'
-        )
+        INSERT INTO "LOGTABLE"(operator,
+                               operateType,
+                               operateDate,
+                               operateResult)
+        VALUES ('${operator}',
+                '${operateType}',
+                '${operateDate}',
+                '${operateResult}')
     </insert>
 
     <select id="getOperator" resultType="com.hhu.model.User">
-        SELECT
-        Users.username,
-        Users.id
-        FROM
-        Intelligent_Rolling.dbo.Users
-        ORDER BY
-        id
+        SELECT username,
+               id
+        FROM "TAB_SYSUSER"
+        ORDER BY id
     </select>
 
     <select id="logTable" resultType="com.hhu.model.LogTable">
         SELECT
-        LogTable.operator,
-        LogTable.operateType,
-        LogTable.operateResult,
-        LogTable.operateDate
-
+        operator,
+        operateType,
+        operateResult,
+        operateDate
         FROM
-        Intelligent_Rolling.dbo.LogTable
-
+        "LOGTABLE"
         <where>
             LogTable.operator = '${operator}'
 
@@ -47,16 +37,13 @@
     </select>
 
     <select id="logTable1" resultType="com.hhu.model.LogTable">
-        SELECT
-        LogTable.operator,
-        LogTable.operateType,
-        LogTable.operateResult,
-        LogTable.operateDate
-
+        SELECT operator,
+               operateType,
+               operateResult,
+               operateDate
         FROM
-        Intelligent_Rolling.dbo.LogTable
-
-        ORDER BY LogTable.operateDate DESC
+        "LOGTABLE"
+        ORDER BY operateDate DESC
     </select>
 
 </mapper>  

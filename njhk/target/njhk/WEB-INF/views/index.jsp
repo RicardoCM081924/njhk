@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>宁海电站智能碾压辅助决策系统</title>
+    <title>起重机智能监控云服务平台</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="shortcut icon" href="views/assets/img/bitbug_favicon.icon" type="image/x-icon"/>
+    <link rel="shortcut icon" href="views/assets/img/crane.svg" type="image/x-icon"/>
     <link rel="stylesheet" href="layuiadmin/layui/css/layui.css" media="all">
     <link rel="stylesheet" href="layuiadmin/style/admin.css" media="all">
     <link rel="stylesheet" href="layuiadmin/style/login.css" media="all">
@@ -28,7 +28,7 @@
                 </li>
                 <li class="layui-nav-item" lay-unselect>
                     <a href="javascript:" layadmin-event="refresh" class="jhtitle">
-                        宁海电站智能碾压辅助决策系统
+                        起重机智能监控云服务平台
                     </a>
                 </li>
             </ul>
@@ -69,7 +69,7 @@
         <div class="layui-side layui-side-menu">
             <div class="layui-side-scroll">
                 <div class="layui-logo" lay-href="homePage">
-                    <span style="font-size: large;">宁海电站-智能碾压</span>
+                    <span style="font-size: large;">河控电气</span>
                 </div>
                 <ul class="layui-nav layui-nav-tree" lay-shrink="all" id="LAY-system-side-menu" lay-filter="layadmin-system-side-menu">
 
@@ -79,59 +79,114 @@
                             <cite>首页</cite>
                         </a>
                     </li>
-                    <li data-name="photo" class="layui-nav-item">
-                        <a href="javascript:" lay-tips="照片导出" lay-direction="2" lay-href="views/photoExport/photoExport.html">
-                            <i class="layui-icon layui-icon-engine"></i>
-                            <cite>照片导出</cite>
-                        </a>
-                    </li>
-
-                    <li data-name="overview" class="layui-nav-item">
-                        <a href="javascript:" lay-tips="照片导出" lay-direction="2" lay-href="views/overview/overview.html">
-                            <i class="layui-icon layui-icon-website"></i>
-                            <cite>工程概览</cite>
-                        </a>
-                    </li>
-
                     <li data-name="dataList" class="layui-nav-item">
                         <a href="javascript:" lay-tips="数据状况" lay-direction="2">
                             <i class="layui-icon layui-icon-console"></i>
-                            <cite>数据列表</cite>
+                            <cite>设备管理</cite>
                             <span class="layui-nav-more"></span>
                         </a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;" lay-href="views/dataStatus/original_data.html">原始数据</a></dd>
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/original_data.html">设备定位</a></dd>
                         </dl>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">已处理数据</a></dd>
+                            <dd><a href="javascript:;" lay-href="views/equipmentManagement/overview/overview.html">设备总览</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">在线分析</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/compactness/diagram.html">设备控制</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">设备登记</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">设备查询</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">GPRS（通讯情况）</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">原始数据</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">上传周期配置</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">通信模块参数配置</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">PLC配置</a></dd>
                         </dl>
                     </li>
-
-                    <li data-name="density" class="layui-nav-item">
-                        <a href="javascript:" lay-tips="密实度云图" lay-direction="2" lay-href="views/compactness/diagram.html">
-                            <i class="layui-icon layui-icon-chart-screen"></i>
-                            <cite>密实度云图</cite>
+                    <li data-name="dataList" class="layui-nav-item">
+                        <a href="javascript:" lay-tips="数据状况" lay-direction="2">
+                            <i class="layui-icon layui-icon-console"></i>
+                            <cite>售后管理</cite>
+                            <span class="layui-nav-more"></span>
                         </a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/original_data.html">维修信息管理</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">维修信息统计</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">基本故障查询</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">保养信息管理</a></dd>
+                        </dl>
                     </li>
-
-                    <li data-name="warning" class="layui-nav-item">
-                        <a href="javascript:" lay-tips="预警条件" lay-direction="2" lay-href="views/warning/condition.html">
-                            <i class="layui-icon layui-icon-form"></i>
-                            <cite>预警条件</cite>
+                    <li data-name="dataList" class="layui-nav-item">
+                        <a href="javascript:" lay-tips="数据状况" lay-direction="2">
+                            <i class="layui-icon layui-icon-console"></i>
+                            <cite>销售管理</cite>
+                            <span class="layui-nav-more"></span>
                         </a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/original_data.html">销售信息登记</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">销售信息查询</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">销售信息统计</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">销售信息分析</a></dd>
+                        </dl>
                     </li>
-
-                    <li data-name="log" class="layui-nav-item">
-                        <a href="javascript:" lay-tips="日志管理" lay-direction="2" lay-href="views/logManagement/logManagement.html">
-                            <i class="layui-icon layui-icon-survey"></i>
-                            <cite>日志管理</cite>
+                    <li data-name="dataList" class="layui-nav-item">
+                        <a href="javascript:" lay-tips="数据状况" lay-direction="2">
+                            <i class="layui-icon layui-icon-console"></i>
+                            <cite>系统管理</cite>
+                            <span class="layui-nav-more"></span>
                         </a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/original_data.html">客户列表</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">密码列表</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">用户管理</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">权限管理</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">角色列表</a></dd>
+                        </dl>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;" lay-href="views/dataStatus/processed_data.html">模板配置</a></dd>
+                        </dl>
                     </li>
 
                     <li data-name="user" id="user_manage" class="layui-nav-item layui-nav-itemed">
                         <a href="javascript:" lay-tips="用户权限" lay-direction="2" lay-href="views/user/userManagement.html">
                             <i class="layui-icon layui-icon-user"></i>
-                            <cite>用户管理</cite>
+                            <cite>短信管理</cite>
                         </a>
                     </li>
 

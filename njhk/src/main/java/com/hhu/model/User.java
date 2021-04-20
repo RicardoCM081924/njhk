@@ -3,10 +3,20 @@ package com.hhu.model;
 public class User {
     private String id;
     private String username;
-    private String password;
-    private String realname;
-    private String note;
+    private String userpasswd;
     private int authority;
+    private String roleid;
+    private String tag;
+    private String companycode;
+    private String isopenging;
+
+    public String getUserpasswd() {
+        return userpasswd;
+    }
+
+    public void setUserpasswd(String userpasswd) {
+        this.userpasswd = userpasswd;
+    }
 
     public String getId() {
         return id;
@@ -24,30 +34,6 @@ public class User {
         this.username = username;
     }
 
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getRealname() {
-        return realname;
-    }
-
-    public void setRealname(String realname) {
-        this.realname = realname;
-    }
-
-    public String getNote() {
-        return note;
-    }
-
-    public void setNote(String note) {
-        this.note = note;
-    }
-
     public int getAuthority() {
         return authority;
     }
@@ -56,15 +42,35 @@ public class User {
         this.authority = authority;
     }
 
-    public User(String id, String username, String password, String realname, String note, int authority) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
-        this.realname = realname;
-        this.note = note;
-        this.authority = authority;
+    public String getRoleid() {
+        return roleid;
     }
 
-    public User() {
+    public void setRoleid(String roleid) {
+        this.roleid = roleid;
+    }
+
+    public String getTag() {
+        return tag;
+    }
+
+    public void setTag(String tag) {
+        this.tag = tag;
+    }
+
+    public String getCompanycode() {
+        return companycode;
+    }
+
+    public void setCompanycode(String companycode) {
+        this.companycode = companycode;
+    }
+
+    public String getIsopenging() {
+        return isopenging;
+    }
+
+    public void setIsopenging(String isopenging) {
+        this.isopenging = isopenging;
     }
 }

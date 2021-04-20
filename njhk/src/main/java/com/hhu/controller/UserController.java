@@ -2,7 +2,6 @@ package com.hhu.controller;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.hhu.annotation.LogAnnotation;
 import com.hhu.dao.UserDao;
 import com.hhu.model.Tablemap;
 import com.hhu.model.User;
@@ -34,18 +33,18 @@ public class UserController {
      * @param request
      * @return
      */
-    @LogAnnotation(operateType = "用户登录")
+    //@LogAnnotation(operateType = "用户登录")
     @ResponseBody
     @PostMapping("login")
     public int login(User user, HttpServletRequest request) {
-        boolean loginType = userService.login(user.getUsername(), user.getPassword());
+        boolean loginType = userService.login(user.getUsername(), user.getUserpasswd());
         //登陆成功
         if (loginType) {
             request.setAttribute("user", user);
             //创建session并把用户名和密码保存到session里
             HttpSession session = request.getSession();
             session.setAttribute("username", user.getUsername());
-            session.setAttribute("password", user.getPassword());
+            session.setAttribute("password", user.getUserpasswd());
             session.setAttribute("user", user);
             return 0;
         } else {
@@ -116,11 +115,8 @@ public class UserController {
     @RequestMapping("getRealName")
     public String getRealName(HttpServletRequest request) {
         HttpSession session = request.getSession(false);
-        //这个为工号
-        String loginName = (String) session.getAttribute("username");
-        //真实姓名
-        String realName = userDao.getRealName(loginName);
-        return realName;
+        String username = (String) session.getAttribute("username");
+        return username;
     }
 
     /**
@@ -143,7 +139,7 @@ public class UserController {
      * @param request
      * @return
      */
-    @LogAnnotation(operateType = "查询用户个人资料")
+    //@LogAnnotation(operateType = "查询用户个人资料")
     @ResponseBody
     @RequestMapping("getUserInfo")
     public List<User> getUserInfo(HttpServletRequest request) {
@@ -194,7 +190,7 @@ public class UserController {
      * @param request
      * @return
      */
-    @LogAnnotation(operateType = "修改密码")
+    //@LogAnnotation(operateType = "修改密码")
     @ResponseBody
     @RequestMapping("update_password")
     public boolean update_password(HttpServletRequest request) {
@@ -206,7 +202,7 @@ public class UserController {
     }
 
 
-    @LogAnnotation(operateType = "删除用户")
+    //@LogAnnotation(operateType = "删除用户")
     @ResponseBody
     @RequestMapping("delete_user")
     public boolean deleteUser(HttpServletRequest request) {
@@ -216,7 +212,7 @@ public class UserController {
         return true;
     }
 
-    @LogAnnotation(operateType = "更新用户信息")
+    //@LogAnnotation(operateType = "更新用户信息")
     @ResponseBody
     @RequestMapping("update_user")
     public boolean update_user(HttpServletRequest request) {
@@ -231,7 +227,7 @@ public class UserController {
         return true;
     }
 
-    @LogAnnotation(operateType = "新增用户")
+    //@LogAnnotation(operateType = "新增用户")
     @ResponseBody
     @RequestMapping("insert_user")
     public boolean insert_user(HttpServletRequest request) {

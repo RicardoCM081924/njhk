@@ -15,13 +15,15 @@ layui.config({
             console.log(data);
             if (data != 0) {
                 layer.msg("当前用户未登录");
-                setTimeout(function () {window.location.href = "views/user/login.html" }, 1200);
+                setTimeout(function () {
+                    window.location.href = "views/user/login.html"
+                }, 1200);
             }
             //从session中取出登录信息
             $.ajax({
-                url:"../../njhk_war_exploded/getRealName",
-                type:"post",
-                success:function (result) {
+                url: "../../njhk_war_exploded/getRealName",
+                type: "post",
+                success: function (result) {
                     var realname = result;
                     document.getElementById('user').innerHTML = realname;
                 }
@@ -57,13 +59,15 @@ function LogoutF() {
     //清空session并且跳转到登录页面
     $.ajax({
         //服务器用：
-        url:"../../njhk_war_exploded/logout",
+        url: "../../njhk_war_exploded/logout",
         //idea用：
         //url:"../../logout",
-        type:"post",
-        success:function (result) {
+        type: "post",
+        success: function (result) {
             layer.msg("已退出登录");
-            setTimeout(function () {window.location.href = "views/user/login.html" }, 1200);
+            setTimeout(function () {
+                window.location.href = "views/user/login.html"
+            }, 1200);
         }
     });
 }

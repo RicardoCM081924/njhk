@@ -5,81 +5,77 @@
     <select id="selectUsername" parameterType="string" resultType="com.hhu.model.User">
         SELECT *
         FROM
-        Intelligent_Rolling.dbo.Users
+        "TAB_SYSUSER"
         <where>
-            Users.username = '${username}'
+            username = '${username}'
         </where>
     </select>
     <select id="getUserInfo" resultType="com.hhu.model.User">
         SELECT
-        userName,
-        userPasswd as password,
         username,
-        authority
+        userpasswd,
+        roleid,
+        powerid,
+        tag
         FROM
-        Intelligent_Rolling.dbo.Users
+        "TAB_SYSUSER"
         <where>
-            Users.username = '${username}'
+            username = '${username}'
         </where>
     </select>
     <update id="update_password">
         UPDATE
-        Intelligent_Rolling.dbo.Users
+        "TAB_SYSUSER"
         <set>
             <if test="password!=''">
-                Users.password='${password}'
+                userPasswd='${password}'
             </if>
         </set>
         <where>
-            Users.username = '${username}'
+            username = '${username}'
         </where>
     </update>
 
 
     <select id="usersTableShow" resultType="com.hhu.model.User">
-        SELECT
-        Users.id,
-        Users.username,
-        Users.realname,
-        Users.note,
-        Users.authority
-        FROM
-        Intelligent_Rolling.dbo.Users
-        ORDER BY Users.id
+        SELECT id,
+               username,
+               note,
+               authority
+        FROM "TAB_SYSUSER"
+        ORDER BY id
     </select>
 
 
 
     <select id="getRealName" resultType="java.lang.String">
-        select realname
-        from Intelligent_Rolling.dbo.Users
+        select username
+        from "TAB_SYSUSER"
         where username = #{loginName}
     </select>
 
 
     <delete id="delete_user">
-        DELETE FROM Intelligent_Rolling.dbo.Users
+        DELETE FROM "TAB_SYSUSER"
         <where>
             Users.id = #{id}
         </where>
     </delete>
 
     <update id="update_user">
-        UPDATE  Intelligent_Rolling.dbo.Users
+        UPDATE "TAB_SYSUSER"
         <set>
-            Users.username = #{username},
-            Users.password = #{password},
-            Users.realname = #{realname},
-            Users.note = #{note},
-            Users.authority = #{authority}
+            username = #{username},
+            password = #{password},
+            note = #{note},
         </set>
         <where>
-            Users.id = #{id}
+            id = #{id}
         </where>
     </update>
 
     <insert id="insert_user">
-        INSERT INTO Intelligent_Rolling.dbo.Users(username, password, realname, note, authority)
+        INSERT INTO "TAB_SYSUSER"(username, password, realname, note, authority)
         VALUES (#{username}, #{password}, #{realname}, #{note}, #{authority})
     </insert>
 

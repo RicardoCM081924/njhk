@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.hhu</groupId>
-  <artifactId>ninghai</artifactId>
+  <artifactId>njhk</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>ninghai</name>
+    <name>njhk</name>
 <!--  &lt;!&ndash; FIXME change it to the project's website &ndash;&gt;-->
 <!--  <url>http://www.example.com</url>-->
 
@@ -128,26 +128,32 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.11</version>
+        <version>8.0.11</version>
     </dependency>
 
-    <dependency>
-      <groupId>com.github.pagehelper</groupId>
-      <artifactId>pagehelper</artifactId>
-      <version>4.0.0</version>
-    </dependency>
+      <dependency>
+          <groupId>com.github.pagehelper</groupId>
+          <artifactId>pagehelper</artifactId>
+          <version>4.0.0</version>
+      </dependency>
 
-    <!-- sqlserver驱动 -->
-    <dependency>
-      <groupId>com.microsoft.sqlserver</groupId>
-      <artifactId>sqljdbc4</artifactId>
-      <version>4.0</version>
-    </dependency>
+      <!-- sqlserver驱动 -->
+      <!--    <dependency>-->
+      <!--      <groupId>com.microsoft.sqlserver</groupId>-->
+      <!--      <artifactId>sqljdbc4</artifactId>-->
+      <!--      <version>4.0</version>-->
+      <!--    </dependency>-->
+      <!-- 添加oracle jdbc driver -->
+      <dependency>
+          <groupId>com.oracle</groupId>
+          <artifactId>ojdbc6</artifactId>
+          <version>11.2.0</version>
+      </dependency>
 
-    <!-- javaee-api包 注意和项目使用的JDK版本对应 -->
-    <dependency>
-      <groupId>javax</groupId>
-      <artifactId>javaee-api</artifactId>
+      <!-- javaee-api包 注意和项目使用的JDK版本对应 -->
+      <dependency>
+          <groupId>javax</groupId>
+          <artifactId>javaee-api</artifactId>
       <version>8.0</version>
       <scope>provided</scope>
     </dependency>
@@ -315,7 +321,7 @@
   </dependencies>
 
   <build>
-    <finalName>ninghai</finalName>
+      <finalName>njhk</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>

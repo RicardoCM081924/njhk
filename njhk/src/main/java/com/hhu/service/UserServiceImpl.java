@@ -1,6 +1,5 @@
 package com.hhu.service;
 
-import com.hhu.annotation.LogAnnotation;
 import com.hhu.dao.UserDao;
 import com.hhu.model.User;
 import org.springframework.stereotype.Service;
@@ -14,19 +13,19 @@ public class UserServiceImpl implements UserService {
     @Resource
     private UserDao userDao;
 
-    @LogAnnotation(operateType = "用户登录")
+    //@LogAnnotation(operateType = "用户登录")
     @Override
     public boolean login(String username, String password){
         User user = userDao.selectUsername(username);
         if(user!=null){
-            if(user.getUsername().equals(username)&&user.getPassword().equals(password)){
+            if (user.getUsername().equals(username) && user.getUserpasswd().equals(password)) {
                 return true;
             }
         }
         return false;
     }
 
-    @LogAnnotation(operateType = "查询用户名")
+    //@LogAnnotation(operateType = "查询用户名")
     @Override
     public List<User> getUserInfo(String username) {
         return userDao.getUserInfo(username);
@@ -38,7 +37,7 @@ public class UserServiceImpl implements UserService {
     }
 
 
-    @LogAnnotation(operateType = "修改密码")
+    //@LogAnnotation(operateType = "修改密码")
     @Override
     public void update_password(String username, String password){
         userDao.update_password(username,password);

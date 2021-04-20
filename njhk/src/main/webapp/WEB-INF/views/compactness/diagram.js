@@ -42,7 +42,6 @@ layui.config({
 
     function getdensity() {
         var $ = layui.$;
-        var form = layui.form;
         $.ajax({
             url: "../../getChosenDensity",
             type: "get",
