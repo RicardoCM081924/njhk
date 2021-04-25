@@ -1,15 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.hhu.dao.VehicleDao">
     <select id="getVehicleModel" resultType="java.lang.String">
         SELECT distinct vehiclemodel
         FROM "TAB_VEHICLEIINFO"
     </select>
     <select id="getVehicleFactory" resultType="java.lang.String">
-        SELECT distinct vehiclemodel
+        SELECT distinct VENDORS
         FROM "TAB_VEHICLEIINFO"
     </select>
-
-
+    <select id="getVehicleSim" resultType="java.lang.String">
+        SELECT distinct GPSID
+        FROM "TAB_VEHICLEIINFO"
+    </select>
+    <select id="getVehicleType" resultType="java.lang.String">
+        select distinct VEHICLETYPE
+        from "TAB_VEHICLEIINFO"
+    </select>
+    <select id="getVehicleBase" resultType="com.hhu.model.VehicleBase">
+        select
+        id,
+        vehiclemodel,
+        vehicletype,
+        vehicleid,
+        engineid,
+        rackid,
+        gpsid,
+        buyways,
+        to_char(purchasedate,'yyyy-MM-dd')as purchasedate,
+        vehicleowners,
+        onlinestate,
+        to_char(rectime,'yyyy-MM-dd HH:mm:ss') as rectime,
+        vendors
+        from "TAB_VEHICLEIINFO"
+        WHERE 1=1
+        <if test="type != null and type !=''">
+            AND vehicletype = '${type}'
+        </if>
+        <if test="model!=null and model!=''">
+            AND vehiclemodel = '${model}'
+        </if>
+        <if test="id != null and id !=''">
+            AND vehicleid = '${id}'
+        </if>
+        <if test="rackid !=null and rackid !=''">
+            AND rackid = '${rackid}'
+        </if>
+        <if test="vendors!=null and vendors!=''">
+            AND vendors = '${vendors}'
+        </if>
+        <if test="sim != null and sim !=''">
+            AND gpsid = '${sim}'
+        </if>
+        <if test="vehicleowners !=null and vehicleowners !=''">
+            AND vehicleowners = '${vehicleowners}'
+        </if>
+    </select>
 </mapper>

@@ -10,18 +10,177 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88bb19a8-acd3-4e7a-a03c-e7fb9baabb3c" name="默认的" comment="默认的">
-      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentOverview/overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/model/VehicleBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/json/table/demo3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/layim/html/mobile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentOverview/vehicle_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../njhk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/controller/VehicleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/controller/VehicleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/dao/VehicleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/dao/VehicleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/mapper/VehicleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/mapper/VehicleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentManagement/overview/data_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentOverview/data_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentManagement/overview/overview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentManagement/overview/overview.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentOverview/overview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/VehicleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/VehicleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/VehicleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/java/com/hhu/service/VehicleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/json/demo/device.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/json/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/json/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/json/menu1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/json/table/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/json/table/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/json/table/demo2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/json/table/demo2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/json/useradmin/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/json/脌碌鈭毸_txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/layui.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/code.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/laydate/default/font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/layim/html/chatlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/layim/html/chatlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/layim/html/find.html" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/layim/html/find.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/layim/html/getmsg.json" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/layim/html/getmsg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/layim/layim.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/layim/layim.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/layim/mobile/layim.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/css/modules/layim/mobile/layim.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/font/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/font/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/font/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/font/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/font/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/font/iconfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/all-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/laydate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/layedit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/layim.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/layim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/laypage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/mobile/layer-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/mobile/layim-mobile-open.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/mobile/layim-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/mobile/upload-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/mobile/zepto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/rate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/transfer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/transfer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/lay/modules/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/layui.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/lib/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/lib/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/lib/extend/echartsTheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/lib/extend/echartsTheme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/lib/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/lib/view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/console.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/console.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/contlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/contlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/forum.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/forum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/hydraulic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/im.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/im.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/sample.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/sample.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/senior.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/senior.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/set.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/set.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/useradmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/useradmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/workorder.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/modules/workorder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/style/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/style/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/style/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/style/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/style/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/style/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/tpl/layim/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/tpl/layim/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/tpl/system/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/tpl/system/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/tpl/system/get.html" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/layuiadmin/tpl/system/get.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentOverview/data_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentOverview/data_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentOverview/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentOverview/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentOverview/overview.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/src/main/webapp/WEB-INF/views/equipmentOverview/overview.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/classes/com/hhu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/classes/com/hhu/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/classes/com/hhu/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/classes/com/hhu/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/views/user/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/views/user/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/json/demo/device.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/json/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/json/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/json/menu1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/json/table/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/json/table/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/json/table/demo2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/json/table/demo2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/json/useradmin/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/json/脌碌鈭毸_txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/layui.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/code.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/laydate/default/font.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/layim/html/chatlog.html" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/layim/html/chatlog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/layim/html/find.html" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/layim/html/find.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/layim/html/getmsg.json" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/layim/html/getmsg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/layim/layim.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/layim/layim.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/layim/mobile/layim.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/css/modules/layim/mobile/layim.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/font/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/font/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/font/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/font/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/font/iconfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/font/iconfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/all-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/laydate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/layedit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/layim.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/layim.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/laypage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/mobile/layer-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/mobile/layim-mobile-open.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/mobile/layim-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/mobile/upload-mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/mobile/zepto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/rate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/transfer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/transfer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/lay/modules/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/layui.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/lib/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/lib/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/lib/extend/echartsTheme.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/lib/extend/echartsTheme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/lib/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/lib/view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/console.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/console.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/contlist.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/contlist.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/forum.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/forum.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/hydraulic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/im.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/im.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/sample.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/sample.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/senior.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/senior.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/set.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/set.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/useradmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/useradmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/workorder.js" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/modules/workorder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/style/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/style/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/style/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/style/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/style/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/style/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/tpl/layim/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/tpl/layim/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/tpl/system/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/tpl/system/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/tpl/system/get.html" beforeDir="false" afterPath="$PROJECT_DIR$/../njhk/njhk/target/njhk/WEB-INF/layuiadmin/tpl/system/get.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,15 +190,20 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Tag Library Descriptor" />
+        <option value="Mapper" />
+        <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,6 +220,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../njhk/njhk/target/jhpatrol/WEB-INF/web.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -89,7 +256,11 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -113,6 +284,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat 服务器.Tomcat 8.5">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="generated-requests#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" runType="运行单个请求">
       <method v="2" />
     </configuration>
@@ -137,6 +321,9 @@
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="10848" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="8984" />
+      </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -153,6 +340,36 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
           <option name="USE_DEFAULT" value="true" />
@@ -293,7 +510,17 @@
       <workItem from="1618895485593" duration="1908000" />
       <workItem from="1618904667218" duration="9454000" />
       <workItem from="1618919640305" duration="1656000" />
-      <workItem from="1618922056943" duration="499000" />
+      <workItem from="1618922056943" duration="2073000" />
+      <workItem from="1618924179727" duration="6754000" />
+      <workItem from="1618985371251" duration="3542000" />
+      <workItem from="1619001839610" duration="3866000" />
+      <workItem from="1619070918980" duration="18565000" />
+      <workItem from="1619147509135" duration="1919000" />
+      <workItem from="1619150729674" duration="3937000" />
+      <workItem from="1619227183791" duration="603000" />
+      <workItem from="1619247453021" duration="593000" />
+      <workItem from="1619265809144" duration="2830000" />
+      <workItem from="1619268842830" duration="3166000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1614850544084</created>
@@ -344,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618896734768</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="默认的">
+      <created>1618922769711</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1618922769711</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

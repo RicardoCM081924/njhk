@@ -8,3 +8,13 @@
 .screening-table {
     width: 100%;
 }
+
+.layui-table-cell {
+    font-size: 10px;
+    padding: 0 5px;
+    height: auto;
+    overflow: visible;
+    text-overflow: inherit;
+    white-space: normal;
+    word-break: break-all;
+}
